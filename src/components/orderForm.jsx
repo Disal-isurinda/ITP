@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-function orderForm() {
-    return(
+export class OrderForm extends Component{
+    render() {
+        return (
         <div class="container-fluid">
             <div class="row content">
                 <div class="col-sm-3 sidenav hidden-xs bg-danger text-white">
@@ -83,7 +84,8 @@ function orderForm() {
                 </div>
             </div>
         </div>
-    );
+    )
+}
 }
 
-export default orderForm;
+export default OrderForm

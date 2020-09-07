@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-function Header(){
-    return(
+class MainDashboard extends Component {
+    render() {
+        return (
         <div className="container">
         <div class="container-fluid bg-3 text-center">    
             <br/>
@@ -51,5 +52,6 @@ function Header(){
 
     );
 }
+}
 
-export default Header;
+export default MainDashboard;

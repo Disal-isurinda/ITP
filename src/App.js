@@ -16,7 +16,7 @@ Redirect
 class App extends Component{
   render(){
     return(
-      <div>
+      <div id="disal">
         <Header/>
         <MainDashboard/>
         <OrderForm/>
