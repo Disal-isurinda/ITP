@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 function Header(){
     return(
         <div className="container">
@@ -7,17 +8,17 @@ function Header(){
                 <div class="row">
                     <div class="col-sm-3">
                         
-                        <a href="####"><img src="https://placehold.it/150x80?text=IMAGE" width="100%" class="img-responsive"  alt="Image"/></a>
-                     </div>
+                    <a href="####"><img src="https://placehold.it/150x80?text=IMAGE" width="100%" class="img-responsive"  alt="Image"/></a>                     </div>
+                    <div class="col-sm-3">  
+                        
+                    <a href="####"><img src="https://placehold.it/150x80?text=IMAGE" width="100%" class="img-responsive"  alt="Image"/></a>                     </div>
                     <div class="col-sm-3"> 
                         
-                    <a href="####"><img src="https://placehold.it/150x80?text=IMAGE" width="100%" class="img-responsive"  alt="Image"/></a>                    </div>
+                    <a href="####"><img src="https://placehold.it/150x80?text=IMAGE" width="100%" class="img-responsive"  alt="Image"/></a>                     </div>
                     <div class="col-sm-3"> 
                         
-                    <a href="####"><img src="https://placehold.it/150x80?text=IMAGE" width="100%" class="img-responsive"  alt="Image"/></a>                    </div>
-                    <div class="col-sm-3">
-                        
-                    <a href="####"><img src="https://placehold.it/150x80?text=IMAGE" width="100%" class="img-responsive"  alt="Image"/></a>                    </div>
+                    <a href="####"><img src="https://placehold.it/150x80?text=IMAGE" width="100%" class="img-responsive"  alt="Image"/></a>                     </div>
+                    <div class="col-sm-3"> 
                     
     </div>
     </div>
@@ -44,6 +45,7 @@ function Header(){
 
     <br/><br/>
 
+    </div>
     </div>
     
 
