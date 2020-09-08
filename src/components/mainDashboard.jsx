@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
+import Bird from '../images/bird150.jpg';
+
 class MainDashboard extends Component {
     render() {
         return (
@@ -9,7 +11,7 @@ class MainDashboard extends Component {
                 <div class="row">
                     <div class="col-sm-3">
                         
-                    <a href="####"><img src="https://placehold.it/150x80?text=IMAGE" width="100%" class="img-responsive"  alt="Image"/></a>                     </div>
+                    <img src={Bird} class="img-circle" alt="Bird"/>                    </div>
                     <div class="col-sm-3">  
                         
                     <a href="####"><img src="https://placehold.it/150x80?text=IMAGE" width="100%" class="img-responsive"  alt="Image"/></a>                     </div>

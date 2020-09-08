@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
 
-class OrderForm extends Component{
+export class OrderForm extends Component{
+    
     render() {
         return (
             
@@ -24,19 +25,17 @@ class OrderForm extends Component{
                     </div>
                     
                     
-                    
-                    
-                   <button onclick="myFunction1()"><div class="cmp"></div></button>
-                       
+                   <div class="cmp">
+                       </div>
                        <hr/>
-                       <button onclick="myFunction2()"><div class="cmp"></div></button>
+                       <div class="cmp">
+                       </div>
                        <hr/>
-                       <button onclick="myFunction3()"><div class="cmp"></div></button><br/><br/>
+                       <div class="cmp">
+                       </div><br/><br/>
                 </div>
             </div>
         </div>
-
-        
     )
 }
 }
